@@ -9,7 +9,7 @@ include("config.php");
         $password = $_POST['password'];
         $MD5 = MD5($password);
         $_SESSION['uid'] = $email_user;
-        $sql = mysqli_query($conn, "SELECT * FROM `t_user` WHERE `email_user` LIKE '$email_user' AND `password` LIKE '$MD5'");
+        //$sql = mysqli_query($conn, "SELECT * FROM `t_user` WHERE `email_user` LIKE '$email_user' AND `password` LIKE '$MD5'");
         $row = mysqli_fetch_array($sql);
         $_SESSION['iduser'] = $row['id_user'];
         $_SESSION['level'] = $row['level_user'];

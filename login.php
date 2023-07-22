@@ -31,7 +31,7 @@ date_default_timezone_set("Asia/Jakarta");
     <div class="signup-box">
         <div class="logo">
             <a href="javascript:void(0);">Rental<b>Sesuatu.com</b></a>
-            <small>https://www.rentalsepeda.com</small>
+            <small>https://www.rentalsesuatu.com</small>
         </div>
         <div class="card">
             <div class="body">
